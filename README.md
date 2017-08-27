@@ -1,5 +1,12 @@
 # Docker very secured Nginx with secure SSL
-_maintained by MarvAmBass_
+_maintained by Stuart Zurcher
+
+## Cloned from:
+ (https://github.com/MarvAmBass/docker-nginx-ssl-secure)
+
+## Changed to work as a proxy
+
+link as container:proxy  Linked container needs port 80 exposed.
 
 [FAQ - All you need to know about the marvambass Containers](https://marvin.im/docker-faq-all-you-need-to-know-about-the-marvambass-containers/)
 
@@ -9,7 +16,7 @@ This Dockerfile (available as ___marvambass/nginx-ssl-secure___) gives you a rea
 
 View in Docker Registry [marvambass/nginx-ssl-secure](https://registry.hub.docker.com/u/marvambass/nginx-ssl-secure/)
 
-View in GitHub [MarvAmBass/docker-nginx-ssl-secure](https://github.com/MarvAmBass/docker-nginx-ssl-secure)
+View in GitHub [MarvAmBass/docker-nginx-ssl-secure](https://github.com/stuartz/docker-nginx-ssl-secure)
 
 ## Environment variables and defaults
 
